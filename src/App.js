@@ -24,6 +24,7 @@ export default function App() {
           <p>Email :{item.email}</p>
           <p>Mobile :{item.phone_number}</p>
           <p>DOB :{item.date_of_birth}</p>
+          <img src={item.avatar} alt="api-data"/>
           <hr />
         </div>
       ))}
